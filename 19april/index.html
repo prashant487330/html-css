@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="demo.js" method="post" enctype="application/x-www-form-urlencoded">
+    <div>
+        <label for="msg">Message</label><br>
+        <textarea name="msg" id="msg" cols="40" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="cars">Select car</label>
+        <select name="cars" >
+            <option value="bmw">Bmw</option>
+            <option value="audi">audi</option>
+            <option value="tesla" selected></option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="course">Select course</label>
+        <input type="text" id="course" list="subjects">
+        <datalist id="subjects">
+            <option value="frontend"></option>
+            <option value="backend"></option>
+            <option value="fullstack"></option>
+            <option value="python"></option>
+            <option value="php"></option>
+        </datalist>
+    </div>
+    <input type="text" placeholder="name" readonly disabled>
+    <input type="submit" value="login">
+    <input type="reset" value="" >
+    </form>
+</body>
+</html>

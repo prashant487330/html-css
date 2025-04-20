@@ -1,0 +1,24 @@
+/*universal collector*/
+*{
+    background-color: pink;
+}
+/* element selector */
+h1{
+    background-color: yellow;
+    color: green;
+}
+/* id selector */
+#head{
+    background-color: red;
+    color: aliceblue;
+}
+/* class  selector */
+.comman{
+    background-color: black;
+    color: white;
+}
+/* multiple selector */
+#head,
+.comman{
+    text-transform: uppercase;
+}
