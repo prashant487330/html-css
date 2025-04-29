@@ -1,0 +1,39 @@
+.head span {
+     background-color: blueviolet;
+     color: aliceblue;
+     font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+
+}
+.head{
+    background-color: darkgreen;
+    color: lightskyblue;
+}
+.main {
+    background-color: greenyellow;
+    color: indigo;
+}
+
+.h2 p{
+    font-weight: bold;
+    text-align: justify;
+
+    text-transform: capitalize;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.main div h1{
+    background-color: rgb(140, 140, 51);
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: 600;
+}
+p{
+    border-style:solid;
+    border-width: 10px;
+    border-color: blue;
+
+}
+.h2{
+    background-image: url(https://plus.unsplash.com/premium_photo-1712499322952-a0374a1d22c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8); */

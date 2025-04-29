@@ -1,0 +1,65 @@
+/* nested selector */
+.main div h1 {
+    background-color:red;
+    color: white;
+
+/* font family */
+font-style:italic;
+font-weight:900;
+}
+
+.main p{
+    font-weight: 900;
+    font-align:justify;
+
+    /* capatalise,lowercase,uppercase */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+   word-spacing: 5px;
+   line-height: 30px;
+
+}
+
+.head{
+    font-style: normal;
+    color: red;
+}
+
+.head span {
+    font-style: italic;
+    color: blue;
+}
+
+p span{
+    background-color: aqua;
+}
+
+p{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rebeccapurple;
+
+    /* shorthand */
+    /* border:5px dashed blue */
+    border-top: 3px solid red;
+    border-bottom: 5px dashed blue;
+    border-left: 5px dotted green;
+    border-right: 5px double orange;
+    border-radius: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+
+.main{
+    background-image: url(https://plus.unsplash.com/premium_photo-1712499322952-a0374a1d22c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8);
+    background-repeat: no-repeat;  
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+    /* shorthand */
+    background:url(https://plus.unsplash.com/premium_photo-1712499322952-a0374a1d22c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8)no-repeat center center/center;
+    
+}
