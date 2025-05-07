@@ -1,0 +1,41 @@
+.container{
+    border: 10px solid black;
+    height: 1000px;
+    display: flex;
+    margin: 50px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.box1{
+    /* it moves from current position */
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 30;
+}
+.box2{
+    position: absolute;
+    background-color: green;
+    top: 100px;
+    left: 100px;
+    z-index: 40;
+}
+.box3{
+    /* it works just like absolute */
+    background-color: blue;
+    position: fixed;
+    top: 0px;
+    left: 100px;
+    z-index: 50;
+}
+.box4{
+    /* works just like relative */
+    background-color: orange;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 70;
+}

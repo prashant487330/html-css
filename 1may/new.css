@@ -1,0 +1,15 @@
+body{
+    background-color: red;
+}
+/* tablet view */
+@media screen and (max-width:768px) {
+ body{
+    background-color: blue;
+ }   
+}
+/* mobile view */
+@media  screen and (max-width: 425) {
+    body{
+        background-color: yellow;
+    }
+}

@@ -43,6 +43,7 @@
     align-items: center;
     gap: 20px;
     text-align: center;
+    position: relative;
   }
   .home h1{
     font-size: 55px;
@@ -63,6 +64,22 @@
   .btn:hover{
     color: red;
   }
+  
+
+  .home::before {
+    content: "";
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0 0 0 0.6);
+
+  }
+  .home * {
+    z-index: 400;
+}
   /* about */
   .about h2{
     text-align: center;
@@ -77,8 +94,9 @@
     margin-bottom: 40px;
   }
   .container{
-    width: 25%;
-    height: 50px;
+    width: 75%;
+    gap: 2px;
+    margin-left: 43.5px;
   }
   /* blog content */
   .blog h2{
@@ -87,18 +105,18 @@
   }
   .blog-content{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction:row;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    margin:30px;
+    gap: 40px;
+    margin:20px;
   }
   .blog-content img{
-    width: 50%;
-    height: 300px;
+    width: 100%;
+    height: 500px;
 
   }
-  .blog-content .blog-data{
+  .blog-content .blog data {
      display: flex;
      flex-direction: column;
      justify-content: center;
